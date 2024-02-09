@@ -1,0 +1,191 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "iNKORE.UI.WPF/1.2.1": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll": {
+            "related": ".deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll": {
+            "related": ".deps.json;.pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "iNKORE.UI.WPF.Modern/0.9.26.1": {
+        "type": "package",
+        "dependencies": {
+          "iNKORE.UI.WPF": "1.2.1"
+        },
+        "compile": {
+          "lib/net452/System.ValueTuple.dll": {},
+          "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.pdb;.Controls.xml;.pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".Modern.Controls.pdb;.Modern.Controls.xml;.Modern.pdb;.Modern.xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/System.ValueTuple.dll": {},
+          "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.pdb;.Controls.xml;.pdb;.xml"
+          },
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "related": ".Modern.Controls.pdb;.Modern.Controls.xml;.Modern.pdb;.Modern.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iNKORE.UI.WPF/1.2.1": {
+      "sha512": "GAo6Zub9Utk+zi2h7IsUQLwzqbG0pr8jXyPKfFnxn5xhf2NPcr4I0vvnCu/N03BQ9lIIMB46FpdsBmcorW0yNg==",
+      "type": "package",
+      "path": "inkore.ui.wpf/1.2.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "iNKORE_Badge_256.png",
+        "inkore.ui.wpf.1.2.1.nupkg.sha512",
+        "inkore.ui.wpf.nuspec",
+        "lib/net452/iNKORE.UI.WPF.dll",
+        "lib/net452/iNKORE.UI.WPF.pdb",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.deps.json",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.pdb"
+      ]
+    },
+    "iNKORE.UI.WPF.Modern/0.9.26.1": {
+      "sha512": "ZqAETnZglrcSm6iPETxvK+dYOH7y2S7H6zlNrJNZHarBNDG6NFWOyWwbFMBYRcK6UO6lK9lLffg5zPT8wShzIg==",
+      "type": "package",
+      "path": "inkore.ui.wpf.modern/0.9.26.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Inkore_Badge_256.png",
+        "README.md",
+        "inkore.ui.wpf.modern.0.9.26.1.nupkg.sha512",
+        "inkore.ui.wpf.modern.nuspec",
+        "lib/net452/System.ValueTuple.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net452/iNKORE.UI.WPF.Modern.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net452/iNKORE.UI.WPF.Modern.xml",
+        "lib/net452/iNKORE.UI.WPF.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.deps.json",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.dll",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net6.0-windows10.0.18362.0/iNKORE.UI.WPF.Modern.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "iNKORE.UI.WPF.Modern >= 0.9.26.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\HLXF\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\项目\\BlockLauncher\\BlockLauncher\\BlockLauncher.csproj",
+      "projectName": "BlockLauncher",
+      "projectPath": "D:\\项目\\BlockLauncher\\BlockLauncher\\BlockLauncher.csproj",
+      "packagesPath": "C:\\Users\\HLXF\\.nuget\\packages\\",
+      "outputPath": "D:\\项目\\BlockLauncher\\BlockLauncher\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\HLXF\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "iNKORE.UI.WPF.Modern": {
+            "target": "Package",
+            "version": "[0.9.26.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1”而不是项目目标框架“net8.0-windows7.0”还原包“iNKORE.UI.WPF.Modern 0.9.26.1”。此包可能与项目不完全兼容。",
+      "libraryId": "iNKORE.UI.WPF.Modern",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
+}

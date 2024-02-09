@@ -1,0 +1,58 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "iNKORE.UI.WPF/1.2.1": {
+        "runtime": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "iNKORE.UI.WPF.Modern/0.9.26.1": {
+        "dependencies": {
+          "iNKORE.UI.WPF": "1.2.1"
+        },
+        "runtime": {
+          "lib/net452/System.ValueTuple.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          },
+          "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "assemblyVersion": "0.9.26.0",
+            "fileVersion": "0.9.26.0"
+          },
+          "lib/net452/iNKORE.UI.WPF.Modern.dll": {
+            "assemblyVersion": "0.9.26.0",
+            "fileVersion": "0.9.26.0"
+          },
+          "lib/net452/iNKORE.UI.WPF.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "iNKORE.UI.WPF/1.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GAo6Zub9Utk+zi2h7IsUQLwzqbG0pr8jXyPKfFnxn5xhf2NPcr4I0vvnCu/N03BQ9lIIMB46FpdsBmcorW0yNg==",
+      "path": "inkore.ui.wpf/1.2.1",
+      "hashPath": "inkore.ui.wpf.1.2.1.nupkg.sha512"
+    },
+    "iNKORE.UI.WPF.Modern/0.9.26.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ZqAETnZglrcSm6iPETxvK+dYOH7y2S7H6zlNrJNZHarBNDG6NFWOyWwbFMBYRcK6UO6lK9lLffg5zPT8wShzIg==",
+      "path": "inkore.ui.wpf.modern/0.9.26.1",
+      "hashPath": "inkore.ui.wpf.modern.0.9.26.1.nupkg.sha512"
+    }
+  }
+}
