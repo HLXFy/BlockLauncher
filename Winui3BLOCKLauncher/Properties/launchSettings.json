@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Winui3BLOCKLauncher (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "Winui3BLOCKLauncher (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
