@@ -1,2 +1,2 @@
 # BlockLauncher
-is WPFBlockminecraftLauncher Still doing it (boring)  
+is Winui3BlockminecraftLauncher Still doing it (boring)  
